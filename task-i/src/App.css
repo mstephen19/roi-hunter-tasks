@@ -1,0 +1,14 @@
+.entities {
+    display: flex;
+}
+
+.entity-block {
+    min-width: 200px;
+    margin: 0px 15px;
+}
+
+.item:hover,
+.item.active {
+    cursor: pointer;
+    text-decoration: underline;
+}
